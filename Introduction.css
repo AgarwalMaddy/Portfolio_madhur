@@ -1,0 +1,532 @@
+body
+{
+    margin:10px;
+    padding: 0%;
+    outline: 0;
+    overflow-x: hidden;
+}
+
+.logo
+{
+    position: relative;
+    left:10%;
+    top: 0.8em;
+}
+
+.nav a
+{
+    text-decoration: none;
+}
+
+.intro
+{
+    position: absolute;
+    left:15cm;
+    top:0.8cm;
+    border-radius: 999px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    text-decoration: none;
+    }
+
+    #introduction:link
+    {
+        color: black;
+    }
+
+    #introduction:visited
+    {
+        color: black;
+    }
+    #introduction:active
+    {
+        color: black
+    }
+
+.education
+{
+    position: absolute;
+    left:18cm;
+    top:0.8cm;
+    border-radius: 999px;
+    box-sizing: border-box;
+    color:#FFFFFF;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    }
+
+    #education:link
+    {
+        color: black;
+    }
+    #education:visited
+    {
+        color: black
+    }
+    #education:active
+    {
+        color: black;
+    }
+
+.skills
+{
+    position: absolute;
+    left:21.6cm;
+    top:0.8cm;
+    border-radius: 999px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    }
+
+    #skills:link
+    {
+        color: black;
+    }
+    #skills:visited
+    {
+        color: black
+    }
+    #skills:active
+    {
+        color: black;
+    }
+
+.work
+{
+    position: absolute;
+    left:24.4cm;
+    top:0.8cm;
+    border-radius: 999px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    }
+
+    #work:link
+    {
+        color: black;
+    }
+    #work:visited
+    {
+        color: black
+    }
+    #work:active
+    {
+        color: black;
+    }
+
+.hobbies
+{
+        position: absolute;
+        left:28cm;
+        top:0.8cm;
+        border-radius: 999px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        opacity: 1;
+        outline: 0 solid transparent;
+        padding: 8px 18px;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: fit-content;
+        word-break: break-word;
+        border: 0;
+        }
+    
+        #hobbies:link
+        {
+            color: black;
+        }
+        #hobbies:visited
+        {
+            color: black
+        }
+        #hobbies:active
+        {
+            color: black;
+        }
+    
+        
+.imgbox
+{
+            background-color: #FFFFFF;
+            width: 20cm;
+            height: 10cm;
+            position: relative;
+            left: 6.5cm;
+            top: 2.5cm;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.cover
+{
+    position: relative;
+    top: -2.6cm;
+    left: 26cm;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+  
+  .cover img
+{
+    height: 300px;
+    object-fit: cover;
+    filter:blur(20%)(120%);
+    box-shadow: 10px 15px 25px 0 rgba(0,0,0,.2);
+
+   
+}
+  
+  .cover:hover img
+{
+    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+  
+  .cover .glow-wrap
+{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin-top: -10px;
+}
+  
+  .cover .glow
+{
+    display: block;
+    position:absolute;
+    width: 40%;
+    height: 200%;
+    background: rgba(255,255,255,.2);
+    top: 0;
+    filter: blur(5px);
+    transform: rotate(45deg) translate(-450%, 0);
+    transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+  
+  .cover:hover .glow
+{
+    transform: rotate(45deg) translate(450%, 0);
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+  
+  .cover:hover img,
+  .cover:hover .glow-wrap
+{
+    margin-top: 0;
+}
+
+.dCard 
+{
+    position: relative;
+    left:6cm;
+    bottom:0cm;
+    background-color: transparent;
+    width: 30%;
+    height: 7cm;
+    perspective: 1000px;
+}
+
+.dCardinner 
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.dCard:hover .dCardinner 
+{
+    transform: rotateY(180deg);
+}
+
+.dCardfront, .dCardback 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.dCardfront {
+    background-color:white;
+    color:#111827;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.dCardback 
+{
+    background-color:#111827;
+    color: white;
+    transform: rotateY(180deg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.dDetails
+{
+    position: relative;
+    top:1cm;
+    left:-0.1cm;
+} 
+
+.pCard 
+{
+    position: relative;
+    bottom:7cm;
+    left:18cm;
+    background-color: transparent;
+    width: 30%;
+    height: 7cm;
+    perspective: 1000px;
+}
+  
+.pCardinner 
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+  
+.pCard:hover .pCardinner 
+{
+    transform: rotateY(180deg);
+}
+  
+.pCardfront, .pCardback 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.pCardfront {
+    background-color:#111827;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+  
+.pCardback 
+{
+    background-color:white;
+    color: black;
+    transform: rotateY(180deg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.pDetails
+{
+    position: relative;
+    top:2.2cm;
+}
+
+.footer
+{
+  height: 5cm;
+  background-image: url(https://themes.muffingroup.com/be/mountainguide/wp-content/uploads/2019/03/mountain-footer-bg-with-gradient.jpg);
+  background-position-y: 6cm;
+  min-height: 100%
+}
+
+.mail
+{
+  position: relative;
+  top: 1.1cm;
+  left: 10cm;
+  background-color: #FFFFFF;
+  border: 1px solid rgb(209,213,219);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  background-color: rgb(249,250,251);
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: none;
+}
+
+.envelope
+{
+  position: relative;
+  top:0.1cm;
+}
+
+.mobile
+{
+  position: relative;
+  top: 1.1cm;
+  left:11.6cm;
+  background-color: #FFFFFF;
+  border: 1px solid rgb(209,213,219);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  background-color: rgb(249,250,251);
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  box-shadow: none;
+}
+
+.phone
+{
+  position: relative;
+  top:0.1cm;
+}
+
+.chat
+{
+    position: relative;
+    top: 1.1cm;
+    left:13.5cm;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(209,213,219);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .75rem 1rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    background-color: rgb(249,250,251);
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    box-shadow: none;
+}
+
+.whatsapp
+{
+  position: relative;
+  top:0.1cm;
+}
+
+#insta
+{
+    position: relative;
+    left:3cm;
+    top:2.9cm;
+}
+#linkedIn
+{
+    position: relative;
+    left:4cm;
+    top:2.9cm;
+}
+#git
+{
+    position: relative;
+    left:5cm;
+    top:2.9cm;
+}
+#twitter
+{
+    position: relative;
+    left:6cm;
+    top:2.9cm;
+}
+
+
